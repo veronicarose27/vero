@@ -1,5 +1,5 @@
 k=int(input())
-a1=str(input())
+a1=(input())
 b=""
 c=""
 for i in range(len(a1)):
@@ -8,4 +8,4 @@ for i in range(len(a1)):
     elif a1[i]=="0":
         c=c+b
         b=""
-print(c)
+print(c.strip())
